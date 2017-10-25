@@ -1,0 +1,31 @@
+<div>
+  <a data-dojo-attach-point="logoLinkNode" target="_blank">
+    <img class="logo jimu-float-leading jimu-leading-margin1" data-dojo-attach-point="logoNode">
+  </a>
+  <div class="titles jimu-float-leading jimu-leading-margin1" data-dojo-attach-point="titlesNode">
+    <div class="jimu-title jimu-float-leading" data-dojo-attach-point="titleNode"></div>
+    <div class="jimu-subtitle jimu-float-leading jimu-leading-margin2" data-dojo-attach-point="subtitleNode"></div>
+  </div>
+
+  <div class="links jimu-float-trailing jimu-trailing-margin25" data-dojo-attach-point="linksNode">
+    <img src="http://icon-icons.com/icons2/97/PNG/128/united_kingdom_flags_flag_17079.png" onclick="window.location.href='http://pcfor10.esri.es:3344/webappbuilder/apps/2?locale=en'" width="25px" height="25px">
+
+    <img src="http://icon-icons.com/icons2/97/PNG/128/spain_flags_flag_17068.png" onclick="window.location.href='http://pcfor10.esri.es:3344/webappbuilder/apps/2?locale=es'" width="25px" height="25px">
+
+    <img src="http://coloproctologiabarcelona.com/images/catalan-button.png" onclick="window.location.href='http://pcfor10.esri.es:3344/webappbuilder/apps/2?locale=cat'" width="25px" height="25px">
+
+    <img src="http://cursa.ihmc.us/?thumbnail=1JKV4FQ34-1VSTMDN-11X4" onclick="window.location.href='http://pcfor10.esri.es:3344/webappbuilder/apps/2?locale=eu'" width="25px" height="25px">
+    
+    
+
+    <span class="dynamic-section" data-dojo-attach-point="dynamicLinksNode"></span>
+    <a class="link" href="#" data-dojo-attach-point="aboutNode" data-dojo-attach-event="onclick:_onAboutClick">${nls.about}</a>
+    <span class="signin-section" data-dojo-attach-point="signInSectionNode">
+      <a href="#" class="link" data-dojo-attach-event="onclick:_onSigninClick"
+      data-dojo-attach-point="signinLinkNode">${nls.signin}</a>
+      <a href="#" target="_blank" class="link" data-dojo-attach-event="onclick:_onUserNameClick" data-dojo-attach-point="userNameLinkNode"></a>
+      <a href="#" class="link" data-dojo-attach-event="onclick:_onSignoutClick" data-dojo-attach-point="signoutLinkNode">${nls.signout}</a>
+    </span>
+
+  </div>
+</div>
